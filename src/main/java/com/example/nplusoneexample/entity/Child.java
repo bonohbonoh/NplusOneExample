@@ -26,4 +26,5 @@ public class Child {
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id")
     private List<Parent> parents;
+    
 }
